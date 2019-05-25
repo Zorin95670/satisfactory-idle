@@ -1,0 +1,29 @@
+{
+  "iron-ingot": {
+    "craftingTime": 2000,
+    "number": 1,
+    "ingredients": [{
+      "name": "iron",
+      "type": "ore",
+      "number": 1
+    }]
+  },
+  "iron-plate": {
+    "craftingTime": 4000,
+    "number": 1,
+    "ingredients": [{
+      "name": "iron-ingot",
+      "type": "ingot",
+      "number": 2
+    }]
+  },
+  "iron-rod": {
+    "craftingTime": 4000,
+    "number": 1,
+    "ingredients": [{
+      "name": "iron-ingot",
+      "type": "ingot",
+      "number": 1
+    }]
+  }
+}
