@@ -1,14 +1,14 @@
 <template>
   <div class="inventory-view">
     <div v-for="type in types" v-bind:key="type">
-      <div class="inventory-menu" @click="visibilities[type] = !visibilities[type]">
+      <div class="panel" @click="visibilities[type] = !visibilities[type]">
         <font-awesome-icon
           icon="chevron-right"
-          class="inventory-icon"
+          class="panel-icon"
           v-if="!visibilities[type]"/>
         <font-awesome-icon
           icon="chevron-down"
-          class="inventory-icon"
+          class="panel-icon"
           v-else/>
         <label>{{type}}s</label>
       </div>
@@ -64,24 +64,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @import '@/assets/satisfactory.scss';
+
   .inventory-view {
     display: flex;
     flex-direction: column;
 
-    .inventory-menu {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: flex-start;
-      border-bottom: 0.2rem solid grey;
-      font-size: 1.5rem;
-      height: 3rem;
-
-      .inventory-icon {
-        margin-right: 1rem;
-        margin-left: 1rem;
-      }
-    }
     .inventory-items {
       margin-top: 1rem;
     }

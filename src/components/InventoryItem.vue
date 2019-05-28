@@ -35,7 +35,7 @@ export default {
     border: 0.25rem solid grey;
     border-radius: 0.5rem;
     background-color: white;
-    color:black;
+    color: black;
     font-weight: bold;
     padding: 0.5rem;
     width: 10rem;

@@ -12,6 +12,19 @@
       ],
       "unlock": true
     },
+    "copper-ingot": {
+      "type": "ingot",
+      "craftingTime": 2000,
+      "number": 1,
+      "ingredients": [{
+        "name": "copper",
+        "type": "ore",
+        "number": 1
+      }
+      ],
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 1"
+    },
     "iron-plate": {
       "type": "item",
       "craftingTime": 4000,
@@ -35,6 +48,73 @@
       }
       ],
       "unlock": true
+    },
+    "screw": {
+      "type": "item",
+      "craftingTime": 4000,
+      "number": 6,
+      "ingredients": [{
+        "name": "iron-rod",
+        "type": "ingot",
+        "number": 1
+      }
+      ],
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 2"
+    },
+    "concrete": {
+      "type": "item",
+      "craftingTime": 4000,
+      "number": 1,
+      "ingredients": [{
+        "name": "limestone",
+        "type": "ore",
+        "number": 3
+      }],
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 2"
+    },
+    "reinforced-iron-plate": {
+      "type": "item",
+      "craftingTime": 12000,
+      "number": 1,
+      "ingredients": [{
+        "name": "iron-plate",
+        "type": "item",
+        "number": 4
+      }, {
+        "name": "screw",
+        "type": "item",
+        "number": 24
+      }],
+      "unlock": true,
+      "lockBy": "Tier 0 - Hub upgrade 2"
+    },
+    "wire": {
+      "type": "item",
+      "craftingTime": 4000,
+      "number": 3,
+      "ingredients": [{
+        "name": "copper-ingot",
+        "type": "ingot",
+        "number": 1
+      }
+      ],
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 1"
+    },
+    "cable": {
+      "type": "item",
+      "craftingTime": 4000,
+      "number": 1,
+      "ingredients": [{
+        "name": "wire",
+        "type": "item",
+        "number": 2
+      }
+      ],
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 1"
     }
   }
 }

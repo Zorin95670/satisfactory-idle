@@ -8,7 +8,96 @@
         "number": 10
       }],
       "unlock": true,
-      "lockBy": null
+      "lockBy": null,
+      "done": false
+    },
+    "Hub upgrade 2": {
+      "craftingTime": 5000,
+      "ingredients": [{
+        "name": "iron-plate",
+        "type": "item",
+        "number": 10
+      }, {
+        "name": "iron-rod",
+        "type": "item",
+        "number": 10
+      }, {
+        "name": "wire",
+        "type": "item",
+        "number": 50
+      }],
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 1",
+      "done": false
+    },
+    "Hub upgrade 3": {
+      "craftingTime": 10000,
+      "ingredients": [{
+        "name": "iron-plate",
+        "type": "item",
+        "number": 75
+      }, {
+        "name": "cable",
+        "type": "item",
+        "number": 10
+      }, {
+        "name": "concrete",
+        "type": "item",
+        "number": 10
+      }, {
+        "name": "reinforced-iron-plate",
+        "type": "item",
+        "number": 2
+      }],
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 2",
+      "done": false
+    },
+    "Hub upgrade 4": {
+      "craftingTime": 15000,
+      "ingredients": [{
+        "name": "iron-plate",
+        "type": "item",
+        "number": 100
+      }, {
+        "name": "iron-rod",
+        "type": "item",
+        "number": 75
+      }, {
+        "name": "concrete",
+        "type": "item",
+        "number": 20
+      }, {
+        "name": "cable",
+        "type": "item",
+        "number": 20
+      }],
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 3",
+      "done": false
+    },
+    "Hub upgrade 5": {
+      "craftingTime": 20000,
+      "ingredients": [{
+        "name": "iron-plate",
+        "type": "item",
+        "number": 150
+      }, {
+        "name": "iron-rod",
+        "type": "item",
+        "number": 150
+      }, {
+        "name": "wire",
+        "type": "item",
+        "number": 500
+      }, {
+        "name": "concrete",
+        "type": "item",
+        "number": 30
+      }],
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 4",
+      "done": false
     }
   }
 }

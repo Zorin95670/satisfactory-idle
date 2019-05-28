@@ -31,6 +31,8 @@ types.forEach((key) => {
             acc1[name] = new Recipe(name, list[type][name]);
           } else {
             acc1[name] = list[type][name];
+            acc1[name].name = name;
+            acc1[name].type = type;
           }
 
           return acc1;
@@ -62,7 +64,7 @@ export default new Vuex.Store({
       state.resources[resource.type][resource.name].decrement(parseInt(resource.number, 10));
     },
     unlock(state, resource) {
-      state.research[resource.type][resource.name].unlock = false;
+      state.research[resource.type][resource.name].done = true;
       const researchName = `${resource.type} - ${resource.name}`;
 
       state.types.forEach((key) => {

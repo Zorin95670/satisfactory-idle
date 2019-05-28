@@ -2,6 +2,7 @@
   <div class="mine-view">
     <ore-miner
       v-for="ore in ores"
+      v-bind:key="ore.name"
       :name="ore.name"
       :level="1"/>
   </div>

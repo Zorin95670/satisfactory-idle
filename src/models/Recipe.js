@@ -3,6 +3,7 @@ class Recipe {
     this.name = name;
     this.type = recipe.type;
     this.unlock = recipe.unlock;
+    this.lockBy = recipe.lockBy;
     this.craftingTime = recipe.craftingTime;
     this.ingredients = recipe.ingredients;
     this.number = recipe.number;

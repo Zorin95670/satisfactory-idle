@@ -1,0 +1,14 @@
+.panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 0.2rem solid grey;
+  font-size: 1.5rem;
+  height: 3rem;
+
+  .panel-icon {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}

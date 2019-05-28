@@ -10,7 +10,7 @@
     },
     "limestone": {
       "unlock": false,
-      "lockBy": null
+      "lockBy": "Tier 0 - Hub upgrade 2"
     },
     "coal": {
       "unlock": false,
@@ -49,6 +49,10 @@
     "iron-ingot": {
       "unlock": true,
       "lockBy": null
+    },
+    "copper-ingot": {
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 1"
     }
   },
   "item": {
@@ -59,6 +63,26 @@
     "iron-rod": {
       "unlock": true,
       "lockBy": null
+    },
+    "screw": {
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 2"
+    },
+    "concrete": {
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 2"
+    },
+    "reinforced-iron-plate": {
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 2"
+    },
+    "wire": {
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 1"
+    },
+    "cable": {
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 1"
     }
   }
 }
