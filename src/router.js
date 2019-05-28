@@ -4,6 +4,7 @@ import Home from '@/views/Home.vue';
 import InventoryView from '@/views/InventoryView.vue';
 import CraftView from '@/views/CraftView.vue';
 import MineView from '@/views/MineView.vue';
+import ResearchView from '@/views/ResearchView.vue';
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/craft',
       name: 'craft',
       component: CraftView,
+    },
+    {
+      path: '/research',
+      name: 'research',
+      component: ResearchView,
     },
   ],
 });

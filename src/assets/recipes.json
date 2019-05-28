@@ -1,29 +1,40 @@
 {
-  "iron-ingot": {
-    "craftingTime": 2000,
-    "number": 1,
-    "ingredients": [{
-      "name": "iron",
-      "type": "ore",
-      "number": 1
-    }]
-  },
-  "iron-plate": {
-    "craftingTime": 4000,
-    "number": 1,
-    "ingredients": [{
-      "name": "iron-ingot",
+  "item": {
+    "iron-ingot": {
       "type": "ingot",
-      "number": 2
-    }]
-  },
-  "iron-rod": {
-    "craftingTime": 4000,
-    "number": 1,
-    "ingredients": [{
-      "name": "iron-ingot",
-      "type": "ingot",
-      "number": 1
-    }]
+      "craftingTime": 2000,
+      "number": 1,
+      "ingredients": [{
+        "name": "iron",
+        "type": "ore",
+        "number": 1
+      }
+      ],
+      "unlock": true
+    },
+    "iron-plate": {
+      "type": "item",
+      "craftingTime": 4000,
+      "number": 1,
+      "ingredients": [{
+        "name": "iron-ingot",
+        "type": "ingot",
+        "number": 2
+      }
+      ],
+      "unlock": true
+    },
+    "iron-rod": {
+      "type": "item",
+      "craftingTime": 4000,
+      "number": 1,
+      "ingredients": [{
+        "name": "iron-ingot",
+        "type": "ingot",
+        "number": 1
+      }
+      ],
+      "unlock": true
+    }
   }
 }

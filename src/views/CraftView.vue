@@ -13,9 +13,10 @@ export default {
   data() {
     const recipes = [];
 
-    Object.keys(this.$store.state.recipes)
+    Object.keys(this.$store.state.recipes.item)
+      .filter(name => this.$store.state.recipes.item[name].unlock)
       .forEach((key) => {
-        recipes.push(this.$store.state.recipes[key]);
+        recipes.push(this.$store.state.recipes.item[key]);
       });
 
     return {
@@ -26,5 +27,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+  .craft-view {
+    margin-top: 1rem;
+  }
 </style>

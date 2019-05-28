@@ -1,0 +1,14 @@
+{
+  "Tier 0": {
+    "Hub upgrade 1": {
+      "craftingTime": 1000,
+      "ingredients": [{
+        "name": "iron-rod",
+        "type": "item",
+        "number": 10
+      }],
+      "unlock": true,
+      "lockBy": null
+    }
+  }
+}

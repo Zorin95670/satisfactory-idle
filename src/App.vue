@@ -49,6 +49,14 @@
             class="menu-icon"/>
           <h2>Craft</h2>
         </div>
+        <div
+          v-bind:class="{item: true, current: 'research' === currentRoute}"
+          @click="naviguate('research')">
+          <font-awesome-icon
+            icon="flask"
+            class="menu-icon"/>
+          <h2>Research</h2>
+        </div>
       </div>
       <div class="content">
         <router-view/>

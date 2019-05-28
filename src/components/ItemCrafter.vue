@@ -57,7 +57,13 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 0.25rem solid grey;
+    border-radius: 0.5rem;
+    background-color: white;
+    color:black;
+    padding: 0.5rem;
+    width: 10rem;
+    margin-left: 0.75rem;
 
     img {
       width: 3rem;

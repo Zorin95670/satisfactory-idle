@@ -1,8 +1,10 @@
 class Resource {
-  constructor(unlock = false) {
+  constructor(name, resource) {
+    this.name = name;
     this.limit = 500;
     this.total = 0;
-    this.unlock = unlock;
+    this.unlock = resource.unlock;
+    this.lockBy = resource.lockBy;
   }
 
   increment(number) {

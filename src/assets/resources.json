@@ -1,0 +1,64 @@
+{
+  "ore": {
+    "iron": {
+      "unlock": true,
+      "lockBy": null
+    },
+    "copper": {
+      "unlock": false,
+      "lockBy": "Tier 0 - Hub upgrade 1"
+    },
+    "limestone": {
+      "unlock": false,
+      "lockBy": null
+    },
+    "coal": {
+      "unlock": false,
+      "lockBy": null
+    },
+    "crudeOil": {
+      "unlock": false,
+      "lockBy": null
+    },
+    "caterium": {
+      "unlock": false,
+      "lockBy": null
+    },
+    "rawQuartz": {
+      "unlock": false,
+      "lockBy": null
+    },
+    "sulfur": {
+      "unlock": false,
+      "lockBy": null
+    },
+    "sam": {
+      "unlock": false,
+      "lockBy": null
+    },
+    "silica": {
+      "unlock": false,
+      "lockBy": null
+    },
+    "uranium": {
+      "unlock": false,
+      "lockBy": null
+    }
+  },
+  "ingot": {
+    "iron-ingot": {
+      "unlock": true,
+      "lockBy": null
+    }
+  },
+  "item": {
+    "iron-plate": {
+      "unlock": true,
+      "lockBy": null
+    },
+    "iron-rod": {
+      "unlock": true,
+      "lockBy": null
+    }
+  }
+}
